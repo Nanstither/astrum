@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://23043.gitlab.irkat.ru/astrum/</loc>
+    <loc>https://nanstither.github.io/astrum/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://23043.gitlab.irkat.ru/astrum/about</loc>
+    <loc>https://nanstither.github.io/astrum/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://23043.gitlab.irkat.ru/astrum/opportunities</loc>
+    <loc>https://nanstither.github.io/astrum/opportunities</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://23043.gitlab.irkat.ru/astrum/technologies</loc>
+    <loc>https://nanstither.github.io/astrum/technologies</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://23043.gitlab.irkat.ru/astrum/exploration</loc>
+    <loc>https://nanstither.github.io/astrum/exploration</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://23043.gitlab.irkat.ru/astrum/contacts</loc>
+    <loc>https://nanstither.github.io/astrum/contacts</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

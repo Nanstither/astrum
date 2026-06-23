@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://23043.gitlab.irkat.ru/astrum'
+export const SITE_URL = 'https://nanstither.github.io/astrum'
 export const SITE_NAME = 'Astrum'
 
 export const navLinks = [

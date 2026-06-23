@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://23043.gitlab.irkat.ru/astrum/sitemap.xml
+Sitemap: https://nanstither.github.io/astrum/sitemap.xml
