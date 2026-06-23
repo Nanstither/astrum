@@ -1,6 +1,7 @@
 import { useCallback, useRef, useState } from 'react'
 import SeoHead from '../components/seo/SeoHead'
 import { Link } from 'react-router-dom'
+import { publicAsset } from '../utils/publicAsset'
 import CareerGraph from '../components/opportunities/CareerGraph'
 import { careers, demandClass } from '../data/careers'
 
@@ -50,7 +51,7 @@ export default function OpportunitiesPage() {
 
             <div className="brutal-frame page-intro-media">
               <img
-                src="/images/features/opportunities.png"
+                src={publicAsset('/images/features/opportunities.png')}
                 alt="Астронавт выходит в открытый космос на фоне Земли"
                 width={720}
                 height={480}

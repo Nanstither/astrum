@@ -2,6 +2,7 @@ import { useCallback, useMemo, useRef, useState } from 'react'
 import SeoHead from '../components/seo/SeoHead'
 import { Link } from 'react-router-dom'
 import MissionTree from '../components/exploration/MissionTree'
+import { publicAsset } from '../utils/publicAsset'
 import {
   getAllExpandableIds,
   getAncestorIds,
@@ -76,7 +77,7 @@ export default function ExplorationPage() {
 
             <div className="brutal-frame page-intro-media">
               <img
-                src="/images/features/exploration.png"
+                src={publicAsset('/images/features/exploration.png')}
                 alt="Астронавты проводят исследования на поверхности Луны"
                 width={720}
                 height={480}

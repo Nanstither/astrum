@@ -1,6 +1,7 @@
 import SeoHead from '../components/seo/SeoHead'
 import { Link } from 'react-router-dom'
 import { SITE_NAME } from '../data/site'
+import { publicAsset } from '../utils/publicAsset'
 
 export default function AboutPage() {
   return (
@@ -32,7 +33,7 @@ export default function AboutPage() {
 
             <div className="brutal-frame page-intro-media">
               <img
-                src="/images/about/cosmonauts-team.png"
+                src={publicAsset('/images/about/cosmonauts-team.png')}
                 alt="Группа космонавтов в тренировочном центре подготовки космонавтов"
                 width={720}
                 height={480}

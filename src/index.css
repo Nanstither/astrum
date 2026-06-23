@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Zeger';
-  src: url('/fonts/Zeger-Regular.otf') format('opentype');
+  src: url('./assets/fonts/Zeger-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;

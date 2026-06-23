@@ -1,6 +1,7 @@
 import SeoHead from '../components/seo/SeoHead'
 import { Link } from 'react-router-dom'
 import { technologies, techStatusClass } from '../data/technologies'
+import { publicAsset } from '../utils/publicAsset'
 
 export default function TechnologiesPage() {
   return (
@@ -32,7 +33,7 @@ export default function TechnologiesPage() {
 
             <div className="brutal-frame page-intro-media">
               <img
-                src="/images/features/technologies.png"
+                src={publicAsset('/images/features/technologies.png')}
                 alt="Запуск ракеты Falcon 9 с космодрома"
                 width={720}
                 height={480}

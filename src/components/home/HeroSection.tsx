@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { publicAsset } from '../../utils/publicAsset'
 
 export default function HeroSection() {
   return (
@@ -7,7 +8,7 @@ export default function HeroSection() {
 
       <div className="hero-earth">
         <img
-          src="/images/hero/earth-horizon.png"
+          src={publicAsset('/images/hero/earth-horizon.png')}
           alt="Вид Земли из космоса с атмосферным свечением на горизонте"
           width={1920}
           height={1080}
@@ -20,7 +21,7 @@ export default function HeroSection() {
 
       <div className="hero-content">
         <img
-          src="/images/hero/hero-text-backdrop.png"
+          src={publicAsset('/images/hero/hero-text-backdrop.png')}
           alt=""
           aria-hidden="true"
           className="hero-content-bg"
