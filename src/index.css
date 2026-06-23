@@ -35,7 +35,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  overflow-anchor: none;
 }
 
 body {
@@ -45,6 +45,7 @@ body {
   color: var(--text);
   background: var(--bg-deep);
   line-height: 1.6;
+  overflow-anchor: none;
 }
 
 img {
