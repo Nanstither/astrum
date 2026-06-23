@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://astrum-cosmic.example.com/sitemap.xml
+Sitemap: https://23043.gitlab.irkat.ru/astrum/sitemap.xml
