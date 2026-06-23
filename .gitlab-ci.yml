@@ -1,12 +1,11 @@
-image: node:22
-
 pages:
   stage: deploy
   script:
     - npm ci
     - npm run build
-    - cp dist/index.html dist/404.html
-    - mv dist public
+    - Copy-Item dist/index.html dist/404.html
+    - if (Test-Path public) { Remove-Item -Recurse -Force public }
+    - Move-Item dist public
   artifacts:
     paths:
       - public
