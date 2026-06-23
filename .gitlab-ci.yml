@@ -1,7 +1,7 @@
 pages:
   stage: deploy
   script:
-    - npm ci
+    - npm ci --legacy-peer-deps
     - npm run build
     - Copy-Item dist/index.html dist/404.html
     - if (Test-Path public) { Remove-Item -Recurse -Force public }
