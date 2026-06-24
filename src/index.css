@@ -1400,6 +1400,18 @@ tbody tr:last-child td {
 
 /* Responsive */
 @media (max-width: 960px) {
+  .hero-content-bg{
+    width: 100%;
+    object-fit: fill;
+    height: 175%;
+    display: block;
+    pointer-events: none;
+    opacity: 0.6;
+    filter: brightness(0);
+    translate: 0 -1rem;
+    rotate: 270deg;
+  }
+
   .header-inner {
     grid-template-columns: 1fr auto;
   }
