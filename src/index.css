@@ -1360,7 +1360,7 @@ tbody tr:last-child td {
 .footer-logo {
   font-family: var(--font-display);
   letter-spacing: 0.2em;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0 0 0.5rem;
 }
 
@@ -1371,8 +1371,9 @@ tbody tr:last-child td {
 }
 
 .footer-heading {
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   letter-spacing: 0.12em;
+  font-weight: 400;
   text-transform: uppercase;
   margin: 0 0 0.75rem;
 }
