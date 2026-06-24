@@ -1409,7 +1409,7 @@ tbody tr:last-child td {
     opacity: 0.6;
     filter: brightness(0);
     translate: 0 -1rem;
-    rotate: 270deg;
+    rotate: 90deg;
   }
 
   .header-inner {
